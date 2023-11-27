@@ -62,11 +62,32 @@ Program:
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: 
 RegisterNumber:  
+
+```
+module sample1(a,b,yand,yor,ynor,ynot,yxor,ynand,yxnor);
+input a,b;
+output yand,yor,ynor,ynot,yxor,ynand,yxnor;
+and(yand,a,b);
+or(yor,a,b);
+not(ynot,a);
+xor(yxor,a,b);
+xnor(yxnor,a,b);
+nand(ynand,a,b);
+nor(ynor,a,b);
+endmodule
+![263431429-98b66538-0d11-46a4-aa6c-479621cdf5ed](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/c275b900-c31e-4629-b631-fb8924b34320)
+
+```
 */
 Logic symbol & Truthtable
-RTL realization
+![263431429-98b66538-0d11-46a4-aa6c-479621cdf5ed](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/2cdc7c68-e34f-4fea-bc02-1819d1ac9e72)
+
+
 Output:
-RTL
+![263434445-4847489b-252f-4468-94da-b553f1cd5d70](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/d15d8d1b-9fb2-458e-ae79-301e3f3c25a1)
+
+![263431450-5639e426-81cd-4b5d-aa84-60d82068111a](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/4b33aae3-1c03-408f-a20c-50e0e4486666)
+
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
