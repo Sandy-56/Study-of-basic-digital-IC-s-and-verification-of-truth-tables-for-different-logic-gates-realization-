@@ -81,15 +81,14 @@ endmodule
 
 ```
 */
-Logic symbol & Truthtable
-![263431429-98b66538-0d11-46a4-aa6c-479621cdf5ed](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/2cdc7c68-e34f-4fea-bc02-1819d1ac9e72)
+Logic Diagram
+![290818291-6a8babfb-ee6b-4fa8-97fa-77620327ab4f](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/6df009b1-bdf8-40d5-9329-0a6cb6ab14ec)
+Timing diagram
+![290818845-966ebf98-fe8b-4188-b7da-ea230963713e](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/3bfde549-d8b6-4475-90e5-743cefb160a7)
 
-
-Output:
-![263434445-4847489b-252f-4468-94da-b553f1cd5d70](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/d15d8d1b-9fb2-458e-ae79-301e3f3c25a1)
-
-![263431450-5639e426-81cd-4b5d-aa84-60d82068111a](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/4b33aae3-1c03-408f-a20c-50e0e4486666)
-
+Truth table
+![290819313-69a88d80-9ef6-4af8-bbda-0447219c6036](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/03d42f4a-a8e7-4f4c-a8fa-da2b388adcb0)
+ 
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
