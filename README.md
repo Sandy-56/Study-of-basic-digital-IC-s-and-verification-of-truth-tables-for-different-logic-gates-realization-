@@ -62,32 +62,33 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 Program:
 /*
-Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: Santhosh D M
-RegisterNumber: 23013934  
+ 
 
 ```
-module sample1(a,b,yand,yor,ynor,ynot,yxor,ynand,yxnor);
+module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
-output yand,yor,ynor,ynot,yxor,ynand,yxnor;
-and(yand,a,b);
-or(yor,a,b);
-not(ynot,a);
-xor(yxor,a,b);
-xnor(yxnor,a,b);
-nand(ynand,a,b);
-nor(ynor,a,b);
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor(y6,a,b);
+xnor (y7,a,b);
 endmodule
 
 ```
 */
-Logic Diagram
-![290818291-6a8babfb-ee6b-4fa8-97fa-77620327ab4f](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/6df009b1-bdf8-40d5-9329-0a6cb6ab14ec)
-Timing diagram
-![290818845-966ebf98-fe8b-4188-b7da-ea230963713e](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/3bfde549-d8b6-4475-90e5-743cefb160a7)
+Logic symbol & Truthtable:
+![292078563-04988242-14c4-40a3-b435-948ef341b3e1](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/a764b2a8-be87-4366-9318-b472791cda26)
 
-Truth table
-![290819313-69a88d80-9ef6-4af8-bbda-0447219c6036](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/03d42f4a-a8e7-4f4c-a8fa-da2b388adcb0)
+RTL realization:
+![292078014-4fd511da-692c-4a5a-ba2d-97b9c962a94a](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/76e0b05c-b795-4c5b-85b5-821d75253949)
+
+
+Output:
+![292078536-106c6b02-2893-4b46-9e78-c0fb4f012aba](https://github.com/Sandy-56/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/152118022/44a76c12-f9c5-48ed-a626-048716dc3b04)
+
  
 
 Result:
